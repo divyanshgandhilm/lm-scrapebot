@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
-import { main } from './index.js';
+import { main } from '../index.js';
 
 const app = express();
 const port = process.env.PORT || 3000;
